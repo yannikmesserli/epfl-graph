@@ -1,0 +1,2315 @@
+{
+"name": "EPFL",
+"children":	[
+	{
+	"type": "school",
+	"name": "SB",
+	"full_name":"SCHOOL OF BASIC SCIENCES",
+	"children": [
+		
+			{ 
+			"type": "institution",
+			"name": "MATHICSE",
+			"full_name":"Mathematics Institute of Computational Science and Engineering",
+			"prof":"Quarteroni Alfio",
+			"children": [	
+				{ "type": "lab",
+				  "name": "ANCHP",
+				  "full_name": "Numerical Algorithms and High-Performance Computing - CADMOS Chair",
+				  "prof": "Kressner Daniel"
+				},	
+				{ "type": "lab",
+				  "name": "ANMC",
+				  "full_name": "Chair of Computational Mathematics and Numerical Analysis",
+				  "prof": "Abdulle Assyr"
+				},	
+				{ "type": "lab",
+				  "name": "CMCS",
+				  "full_name": "Chair of Modelling and Scientific Computing",
+				  "prof": "Quarteroni Alfio"
+				},	
+				{ "type": "lab",
+				  "name": "CSQI",
+				  "full_name": "Scientific computing and uncertainty quantification - CADMOS Chair",
+				  "prof": "Nobile Fabio"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "MATHAA",
+			"full_name":"Mathematics Institute for Analysis and Applications",
+			"prof":"Davison Anthony C.",
+			"children": [	
+				{ "type": "lab",
+				  "name": "CAA",
+				  "full_name": "Chair of Mathematical Analysis and Applications",
+				  "prof": "Dacorogna Bernard"
+				},	
+				{ "type": "lab",
+				  "name": "DISOPT",
+				  "full_name": "Chair of Discrete Optimization",
+				  "prof": "Eisenbrand Friedrich"
+				},	
+				{ "type": "lab",
+				  "name": "PDE",
+				  "full_name": "Chair of Partial Differential Equations",
+				  "prof": "Krieger Joachim"
+				},	
+				{ "type": "lab",
+				  "name": "PROB",
+				  "full_name": "Chair of Probabilities",
+				  "prof": "Dalang Robert"
+				},	
+				{ "type": "lab",
+				  "name": "PRST",
+				  "full_name": "Chair of Stochastic Processes",
+				  "prof": "Mountford Thomas"
+				},	
+				{ "type": "lab",
+				  "name": "SMAT",
+				  "full_name": "Chair of Mathematical Statistics",
+				  "prof": "Panaretos Victor"
+				},	
+				{ "type": "lab",
+				  "name": "STAP",
+				  "full_name": "Chair of Applied Statistics",
+				  "prof": "Morgenthaler Stephan"
+				},	
+				{ "type": "lab",
+				  "name": "STAT",
+				  "full_name": "Chair of Statistics",
+				  "prof": "Davison Anthony C."
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "MATHGEOM",
+			"full_name":"Mathematics Institute for Geometry and Applications",
+			"prof":"Bayer Fluckiger Eva",
+			"children": [	
+				{ "type": "lab",
+				  "name": "CAG",
+				  "full_name": "Chair of Geometric Analysis",
+				  "prof": "Ratiu Tudor"
+				},	
+				{ "type": "lab",
+				  "name": "CSAG",
+				  "full_name": "Chair of Algebraic and Geometric Structures",
+				  "prof": "Bayer Fluckiger Eva"
+				},	
+				{ "type": "lab",
+				  "name": "CTG",
+				  "full_name": "Chair of Group Theory",
+				  "prof": "ThŽvenaz Jacques"
+				},	
+				{ "type": "lab",
+				  "name": "DCG",
+				  "full_name": "Chair of Combinatorial Geometry",
+				  "prof": "Pach J‡nos"
+				},	
+				{ "type": "lab",
+				  "name": "EGG",
+				  "full_name": "Chair of ergodic and geometric group theory",
+				  "prof": "Monod Nicolas"
+				},	
+				{ "type": "lab",
+				  "name": "GEOM",
+				  "full_name": "Chair of Geometry",
+				  "prof": "Hausel Tam‡s"
+				},	
+				{ "type": "lab",
+				  "name": "LCVMM",
+				  "full_name": "Laboratory for Computation and Visualization in Mathematics and Mechanics",
+				  "prof": "Maddocks John H."
+				},	
+				{ "type": "lab",
+				  "name": "LMA",
+				  "full_name": "Laboratory of Algorithmic Mathematics",
+				  "prof": "Shokrollahi Amin"
+				},	
+				{ "type": "lab",
+				  "name": "TAN",
+				  "full_name": "Chair of analytic number theory",
+				  "prof": "Michel Philippe"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ISIC",
+			"full_name":"Institute of Chemical Sciences and Engineering",
+			"prof":"Dyson Paul Joseph",
+			"children": [	
+				{ "type": "lab",
+				  "name": "GSCP",
+				  "full_name": "Group of Chemical and Physical Safety",
+				  "prof": "Meyer Thierry"
+				},	
+				{ "type": "lab",
+				  "name": "LCBC",
+				  "full_name": "Laboratory of Computational Chemistry and Biochemistry",
+				  "prof": "Ršthlisberger Ursula"
+				},	
+				{ "type": "lab",
+				  "name": "LCBIM",
+				  "full_name": "Neva Chair of Bioorganic Chemistry and Molecular Imaging",
+				  "prof": "Dubikovskaya Elena"
+				},	
+				{ "type": "lab",
+				  "name": "LCBM",
+				  "full_name": "Fondation Sandoz Chair in Biophysical Chemistry of Macromolecules",
+				  "prof": "Fierz Beat"
+				},	
+				{ "type": "lab",
+				  "name": "LCIB",
+				  "full_name": "Laboratory of Inorganic and Bioinorganic Chemistry",
+				  "prof": "Dyson Paul Joseph a.i."
+				},	
+				{ "type": "lab",
+				  "name": "LCMD",
+				  "full_name": "Computational Molecular Design Laboratory",
+				  "prof": "Corminboeuf Anne-ClŽmence"
+				},	
+				{ "type": "lab",
+				  "name": "LCOM",
+				  "full_name": "Laboratory of Organometallic and Medicinal Chemistry",
+				  "prof": "Dyson Paul Joseph"
+				},	
+				{ "type": "lab",
+				  "name": "LCPM",
+				  "full_name": "Laboratory of Molecular Physical Chemistry",
+				  "prof": "Rizzo Thomas"
+				},	
+				{ "type": "lab",
+				  "name": "LCPPM",
+				  "full_name": "Laboratory of Physical Chemistry of Polymers and Membranes",
+				  "prof": "Vogel Horst"
+				},	
+				{ "type": "lab",
+				  "name": "LCPT",
+				  "full_name": "Laboratory of Theoretical Physical Chemistry",
+				  "prof": "Vanicek Jiri"
+				},	
+				{ "type": "lab",
+				  "name": "LCS",
+				  "full_name": "Laboratory of Supramolecular Chemistry",
+				  "prof": "Severin Kay"
+				},	
+				{ "type": "lab",
+				  "name": "LCSA",
+				  "full_name": "Laboratory of Asymmetric Catalysis and Synthesis",
+				  "prof": "Cramer Nicolai"
+				},	
+				{ "type": "lab",
+				  "name": "LCSB",
+				  "full_name": "Laboratory of Computational Systems Biotechnology (SB/SV/STI)",
+				  "prof": "Hatzimanikatis Vassily"
+				},	
+				{ "type": "lab",
+				  "name": "LCSO",
+				  "full_name": "Laboratory of Catalysis and Organic Synthesis",
+				  "prof": "Waser JŽr™me"
+				},	
+				{ "type": "lab",
+				  "name": "LEPA",
+				  "full_name": "Laboratory of Physical and Analytical Electrochemistry",
+				  "prof": "Girault Hubert"
+				},	
+				{ "type": "lab",
+				  "name": "LIMNO",
+				  "full_name": "Laboratory for Molecular Engineering of Optoelectronic Nanomaterials",
+				  "prof": "Sivula Kevin"
+				},	
+				{ "type": "lab",
+				  "name": "LIP",
+				  "full_name": "Laboratory of Protein Engineering (SB/SV/STI)",
+				  "prof": "Johnsson Kai"
+				},	
+				{ "type": "lab",
+				  "name": "LLCB2",
+				  "full_name": "Laboratory of Lymphatic and Cancer Bioengineering (SV)",
+				  "prof": "Swartz Melody"
+				},	
+				{ "type": "lab",
+				  "name": "LMRP2",
+				  "full_name": "Merck Serono Chair in Drug Delivery (SV)",
+				  "prof": "Hubbell Jeffrey Alan"
+				},	
+				{ "type": "lab",
+				  "name": "LPI",
+				  "full_name": "Laboratory of Photonics and Interfaces",
+				  "prof": "Graetzel Michael"
+				},	
+				{ "type": "lab",
+				  "name": "LPPT",
+				  "full_name": "Laboratory of Therapeutic Proteins and Peptides",
+				  "prof": "Heinis Christian"
+				},	
+				{ "type": "lab",
+				  "name": "LRMB",
+				  "full_name": "Laboratory of Biomolecular Magnetic Resonance",
+				  "prof": "Bodenhausen Geoffrey"
+				},	
+				{ "type": "lab",
+				  "name": "LSMB",
+				  "full_name": "Biomolecular Mass Spectrometry Laboratory",
+				  "prof": "Tsybin Yury"
+				},	
+				{ "type": "lab",
+				  "name": "LSPN",
+				  "full_name": "Laboratory of synthesis and natural products",
+				  "prof": "Zhu Jieping"
+				},	
+				{ "type": "lab",
+				  "name": "LP",
+				  "full_name": "Polymers Laboratory (STI)",
+				  "prof": "Klok Harm-Anton"
+				},	
+				{ "type": "lab",
+				  "name": "LBTC2",
+				  "full_name": "Cellular Biotechnology Laboratory (SV)",
+				  "prof": "Wurm Florian Maria"
+				},	
+				{ "type": "lab",
+				  "name": "LSU",
+				  "full_name": "Laboratory of Ultrafast Spectroscopy",
+				  "prof": "Chergui Majed"
+				},	
+				{ "type": "lab",
+				  "name": "LSCI",
+				  "full_name": "Laboratory of Inorganic Synthesis and Catalysis",
+				  "prof": "Hu Xile"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IPEP",
+			"full_name":"Institute of Physics of Energy and Particles",
+			"prof":"Tran Minh Quang",
+			"children": [	
+				{ "type": "lab",
+				  "name": "LASTRO",
+				  "full_name": "Laboratory of Astrophysics",
+				  "prof": "Meylan Georges"
+				},	
+				{ "type": "lab",
+				  "name": "LPAP",
+				  "full_name": "Particle Accelerator Physics Laboratory",
+				  "prof": "Rivkin Leonid"
+				},	
+				{ "type": "lab",
+				  "name": "LPHE1",
+				  "full_name": "High Energy Physics Laboratory 1",
+				  "prof": "Bay Aurelio"
+				},	
+				{ "type": "lab",
+				  "name": "LPHE2",
+				  "full_name": "High Energy Physics Laboratory 2",
+				  "prof": "Schneider Olivier"
+				},	
+				{ "type": "lab",
+				  "name": "LPHE3",
+				  "full_name": "High Energy Physics Laboratory 3",
+				  "prof": "Nakada Tatsuya"
+				},	
+				{ "type": "lab",
+				  "name": "LPP1",
+				  "full_name": "Plasma Physics Laboratory 1",
+				  "prof": "Tran Minh Quang"
+				},	
+				{ "type": "lab",
+				  "name": "LPP2",
+				  "full_name": "Plasma Physics Laboratory 2",
+				  "prof": "Fasoli Ambrogio"
+				},	
+				{ "type": "lab",
+				  "name": "LPP3",
+				  "full_name": "Laboratory of Plasma Physics 3",
+				  "prof": "Ricci Paolo"
+				},	
+				{ "type": "lab",
+				  "name": "UPPAUTZ",
+				  "full_name": "Prof. Pautz Group",
+				  "prof": "Pautz Andreas"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ICMP",
+			"full_name":"Institute of Condensed Matter Physics",
+			"prof":"Grandjean Nicolas",
+			"children": [	
+				{ "type": "lab",
+				  "name": "EPSL",
+				  "full_name": "Earth and Planetary Science Laboratory",
+				  "prof": "Gillet Philippe"
+				},	
+				{ "type": "lab",
+				  "name": "LASPE",
+				  "full_name": "Laboratory of Advanced Semiconductors for Photonics and Electronics",
+				  "prof": "Grandjean Nicolas"
+				},	
+				{ "type": "lab",
+				  "name": "LNS",
+				  "full_name": "Laboratory of Nanostructures at Surfaces",
+				  "prof": "Brune Harald"
+				},	
+				{ "type": "lab",
+				  "name": "LOEQ",
+				  "full_name": "Laboratory of Quantum Optoelectronics",
+				  "prof": "Deveaud-PlŽdran Beno”t"
+				},	
+				{ "type": "lab",
+				  "name": "LPMC",
+				  "full_name": "Laboratory of Nanostructures and Novel Electronic Materials",
+				  "prof": "Forr— L‡szl—"
+				},	
+				{ "type": "lab",
+				  "name": "LPMN",
+				  "full_name": "Laboratory of the Physics of Nanostructured Materials",
+				  "prof": "Ansermet Jean-Philippe"
+				},	
+				{ "type": "lab",
+				  "name": "LPN",
+				  "full_name": "Laboratory of the Physics of Nanostructures",
+				  "prof": "Kapon Elyahou"
+				},	
+				{ "type": "lab",
+				  "name": "LPQM1",
+				  "full_name": "Laboratory of Photonics and Quantum Measurements (SB/STI)",
+				  "prof": "Kippenberg Tobias"
+				},	
+				{ "type": "lab",
+				  "name": "LQM",
+				  "full_name": "Laboratory for Quantum Magnetism",
+				  "prof": "R¿nnow Henrik"
+				},	
+				{ "type": "lab",
+				  "name": "LSE",
+				  "full_name": "Laboratory of Photoelectron Spectroscopy",
+				  "prof": "Margaritondo Giorgio"
+				},	
+				{ "type": "lab",
+				  "name": "LSEN",
+				  "full_name": "Laboratory of Nanoscale Science",
+				  "prof": "Kern Klaus"
+				},	
+				{ "type": "lab",
+				  "name": "LSME",
+				  "full_name": "Electron Spectrometry and Microscopy Laboratory",
+				  "prof": "HŽbert CŽcile"
+				},	
+				{ "type": "lab",
+				  "name": "LSNS",
+				  "full_name": "Laboratory for synchrotron and neutron spectroscopy",
+				  "prof": "Mesot Jo‘l"
+				},	
+				{ "type": "lab",
+				  "name": "LUMES",
+				  "full_name": "Laboratory for ultrafast microscopy and electron scattering",
+				  "prof": "Carbone Fabrizio"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IPSB",
+			"full_name":"Institute of the Physics of Biological Systems",
+			"prof":"Dietler Giovanni",
+			"children": [	
+				{ "type": "lab",
+				  "name": "LBBS",
+				  "full_name": "Laboratory of Structural Biology and Biophysics",
+				  "prof": "Leiman Petr"
+				},	
+				{ "type": "lab",
+				  "name": "LCB",
+				  "full_name": "Laboratory of Cell Biophysics",
+				  "prof": "Meister Jean-Jacques"
+				},	
+				{ "type": "lab",
+				  "name": "LEB",
+				  "full_name": "Laboratory of Experimental Biophysics",
+				  "prof": "Manley Suliana"
+				},	
+				{ "type": "lab",
+				  "name": "LIFMET",
+				  "full_name": "Laboratory of functional and metabolic imaging",
+				  "prof": "Gruetter Rolf"
+				},	
+				{ "type": "lab",
+				  "name": "LPMV",
+				  "full_name": "Laboratory of the Physics of Living Matter",
+				  "prof": "Dietler Giovanni"
+				},	
+				{ "type": "lab",
+				  "name": "LPRX",
+				  "full_name": "X-Ray Physics Laboratory",
+				  "prof": "Margaritondo Giorgio"
+				}	
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ITP",
+			"full_name":"Institute of Theoretical Physics",
+			"prof":"Pasquarello Alfredo",
+			"children": [	
+				{ "type": "lab",
+				  "name": "C3PN",
+				  "full_name": "Chair of Computational Chemical Physics on the Nanoscale",
+				  "prof": "Andreoni Wanda"
+				},	
+				{ "type": "lab",
+				  "name": "CSEA",
+				  "full_name": "Chair of Atomic Scale Simulation",
+				  "prof": "Pasquarello Alfredo"
+				},	
+				{ "type": "lab",
+				  "name": "CTMC",
+				  "full_name": "Chair of Condensed Matter Theory",
+				  "prof": "Mila FrŽdŽric"
+				},	
+				{ "type": "lab",
+				  "name": "LBS",
+				  "full_name": "Laboratory of Statistical Biophysics",
+				  "prof": "De Los Rios Paolo"
+				},	
+				{ "type": "lab",
+				  "name": "LPPC",
+				  "full_name": "Laboratory of Particle Physics and Cosmology",
+				  "prof": "Shaposhnikov Mikhail"
+				},	
+				{ "type": "lab",
+				  "name": "LPTP",
+				  "full_name": "Theoretical Particle Physics Laboratory",
+				  "prof": "Rattazzi Riccardo"
+				},	
+				{ "type": "lab",
+				  "name": "LTPN",
+				  "full_name": "Laboratory of Theoretical Physics of Nanosystems",
+				  "prof": "Savona Vincenzo"
+				},	
+				{ "type": "lab",
+				  "name": "UPTHOMALE",
+				  "full_name": "Prof. Thomale Group",
+				  "prof": "Thomale Ronny"
+				}
+			]}
+		
+		
+	]},
+	{
+	"type": "school",
+	"name": "IC",
+	"full_name":"SCHOOL OF COMPUTER AND COMMUNICATION SCIENCES",
+	"children": [
+			{ 
+			"type": "institution",
+			"name": "IIF",
+			"full_name":"Institute of Core Computing Science",
+			"prof":"Guerraoui Rachid",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LSIR",
+				  "full_name": "Distributed Information Systems Laboratory",
+				  "prof": "Aberer Karl"
+				},	
+				{ "type": "lab",
+				  "name": "LIA",
+				  "full_name": "Artificial Intelligence Laboratory",
+				  "prof": "Faltings Boi"
+				},	
+				{ "type": "lab",
+				  "name": "LPD",
+				  "full_name": "Distributed Programming Laboratory",
+				  "prof": "Guerraoui Rachid"
+				},	
+				{ "type": "lab",
+				  "name": "LAMP1",
+				  "full_name": "Programming Methods Laboratory 1",
+				  "prof": "Odersky Martin"
+				},	
+				{ "type": "lab",
+				  "name": "LSR",
+				  "full_name": "Distributed Systems Laboratory",
+				  "prof": "Schiper AndrŽ"
+				},	
+				{ "type": "lab",
+				  "name": "ALGO",
+				  "full_name": "Algorithmics Laboratory",
+				  "prof": "Shokrollahi Amin"
+				},	
+				{ "type": "lab",
+				  "name": "LAMS",
+				  "full_name": "Systemic Modeling Laboratory",
+				  "prof": "Wegmann Alain"
+				},	
+				{ "type": "lab",
+				  "name": "LABOS",
+				  "full_name": "Operating Systems Laboratory",
+				  "prof": "Zwaenepoel Willy"
+				},	
+				{ "type": "lab",
+				  "name": "LACAL",
+				  "full_name": "Laboratory for cryptologic algorithms",
+				  "prof": "Lenstra Arjen"
+				},	
+				{ "type": "lab",
+				  "name": "LCBB",
+				  "full_name": "Laboratory for Computational Biology and Bioinformatics",
+				  "prof": "Moret Bernard"
+				},	
+				{ "type": "lab",
+				  "name": "DSLAB",
+				  "full_name": "Dependable Systems Laboratory",
+				  "prof": "Candea George"
+				},	
+				{ "type": "lab",
+				  "name": "LARA",
+				  "full_name": "Laboratory for Automated Reasoning and Analysis",
+				  "prof": "Kuncak Viktor"
+				},	
+				{ "type": "lab",
+				  "name": "ARNI",
+				  "full_name": "Laboratory of Algorithmic Research on Networked Information",
+				  "prof": "Fragouli Christina"
+				},	
+				{ "type": "lab",
+				  "name": "DIAS",
+				  "full_name": "Data-Intensive Applications and Systems Laboratory",
+				  "prof": "Ailamaki Anastasia"
+				},	
+				{ "type": "lab",
+				  "name": "DATA",
+				  "full_name": "Data Analysis Theory and Applications Laboratory",
+				  "prof": "Koch Christoph"
+				},	
+				{ "type": "lab",
+				  "name": "RISD",
+				  "full_name": "Rigorous System Design Laboratory",
+				  "prof": "Sifakis Joseph"
+				},	
+				{ "type": "lab",
+				  "name": "NAL",
+				  "full_name": "Network Architecture Laboratory",
+				  "prof": "Argyraki Katerina"
+				},	
+				{ "type": "lab",
+				  "name": "THL1",
+				  "full_name": "Theory of Computation Laboratory 1",
+				  "prof": "Madry Aleksander"
+				},	
+				{ "type": "lab",
+				  "name": "THL2",
+				  "full_name": "Theory of Computation Laboratory 2",
+				  "prof": "Svensson Ola Nils Anders"
+				}
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ISIM",
+			"full_name":"Institute of Computing and Multimedia Systems",
+			"prof":"Fua Pascal",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LCN1",
+				  "full_name": "Computational Neuroscience Laboratory (IC/SV)",
+				  "prof": "Gerstner Wulfram"
+				},	
+				{ "type": "lab",
+				  "name": "LSP",
+				  "full_name": "Peripheral Systems Laboratory",
+				  "prof": "Hersch Roger"
+				},	
+				{ "type": "lab",
+				  "name": "LAP",
+				  "full_name": "Processor Architecture Laboratory",
+				  "prof": "Ienne Paolo"
+				},	
+				{ "type": "lab",
+				  "name": "LTI",
+				  "full_name": "Computer Networking Laboratory",
+				  "prof": "Petitpierre Claude"
+				},	
+				{ "type": "lab",
+				  "name": "CVLAB",
+				  "full_name": "Computer Vision Laboratory",
+				  "prof": "Fua Pascal"
+				},	
+				{ "type": "lab",
+				  "name": "LSI1",
+				  "full_name": "Integrated Systems Laboratory (IC/STI)",
+				  "prof": "De Micheli Giovanni"
+				},	
+				{ "type": "lab",
+				  "name": "LDM1",
+				  "full_name": "Media and Design Laboratory (IC/ENAC)",
+				  "prof": "Huang Jeffrey"
+				},	
+				{ "type": "lab",
+				  "name": "PARSA",
+				  "full_name": "Parallel Systems Architecture Laboratory",
+				  "prof": "Falsafi Babak"
+				},	
+				{ "type": "lab",
+				  "name": "LGG",
+				  "full_name": "Computer Graphics and Geometry Laboratory",
+				  "prof": "Pauly Mark"
+				},	
+				{ "type": "lab",
+				  "name": "LAPMAL",
+				  "full_name": "Laboratory for Probabilistic Machine Learning",
+				  "prof": "Seeger Matthias"
+				}
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ISC",
+			"full_name":"Institute of Communication Systems",
+			"prof":"Urbanke Rüdiger",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LCA1",
+				  "full_name": "Computer Communications and Applications Laboratory 1",
+				  "prof": "Hubaux Jean-Pierre"
+				},	
+				{ "type": "lab",
+				  "name": "LCA2",
+				  "full_name": "Computer Communications and Applications Laboratory 2",
+				  "prof": "Le Boudec Jean-Yves"
+				},	
+				{ "type": "lab",
+				  "name": "LCA3",
+				  "full_name": "Computer Communications and Applications Laboratory 3",
+				  "prof": "Thiran Patrick"
+				},	
+				{ "type": "lab",
+				  "name": "LCA4",
+				  "full_name": "Computer Communications and Applications Laboratory 4",
+				  "prof": "Grossglauser Matthias"
+				},	
+				{ "type": "lab",
+				  "name": "LCM",
+				  "full_name": "Mobile Communications Laboratory",
+				  "prof": "Rimoldi Bixio"
+				},	
+				{ "type": "lab",
+				  "name": "LCAV",
+				  "full_name": "Audiovisual Communications Laboratory",
+				  "prof": "Vetterli Martin"
+				},	
+				{ "type": "lab",
+				  "name": "LTHI",
+				  "full_name": "Information Theory Laboratory",
+				  "prof": "Telatar Emre"
+				},	
+				{ "type": "lab",
+				  "name": "LTHC",
+				  "full_name": "Communication Theory Laboratory",
+				  "prof": "Urbanke RŸdiger"
+				},	
+				{ "type": "lab",
+				  "name": "LASEC",
+				  "full_name": "Security and Cryptography Laboratory",
+				  "prof": "Vaudenay Serge"
+				},	
+				{ "type": "lab",
+				  "name": "LINX",
+				  "full_name": "Laboratory for Information in Networked Systems",
+				  "prof": "Gastpar Michael C."
+				},	
+				{ "type": "lab",
+				  "name": "",
+				  "full_name": "",
+				  "prof": ""
+				}
+			]}
+	]},
+	{
+	"type": "school",
+	"name": "STI",
+	"full_name":"SCHOOL OF ENGINEERING",
+	"children": [
+			
+			{ 
+			"type": "institution",
+			"name": "IBI-STI",
+			"full_name":"Interschool Institute of Bioengineering (STI)",
+			"prof":"Swartz Melody",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "BIOROB",
+				  "full_name": "Biorobotics Laboratory",
+				  "prof": "Ijspeert Auke"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "CLSE",
+				  "full_name": "Swiss-up engineering Chair - Laboratory of Life Sciences Electronics",
+				  "prof": "Guiducci Carlotta"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "CNBI",
+				  "full_name": "Defitech Foundation Chair in Non-invasive Brain-machine Interface",
+				  "prof": "Mill‡n JosŽ del R."
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LBEN",
+				  "full_name": "Laboratory of Nanoscale Biology",
+				  "prof": "Radenovic Aleksandra"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LBNC",
+				  "full_name": "Laboratory of Biological Network Characterization",
+				  "prof": "Maerkl Sebastian"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LBNI",
+				  "full_name": "Laboratory for Bio- and Nano-Instrumentation",
+				  "prof": "Fantner Georg"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LBP /  CJJP",
+				  "full_name": "Julia Jacobi Chair of Photomedicine - Laboratory for fundamental BioPhotonics",
+				  "prof": "Roke Sylvie"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LHTC",
+				  "full_name": "Hemodynamics and Cardiovascular Technology Laboratory",
+				  "prof": "Stergiopulos Nikolaos"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TNE",
+				  "full_name": "Translational Neural Engineering Laboratory",
+				  "prof": "Micera Silvestro"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IEL",
+			"full_name":"Institute of Electrical Engineering",
+			"prof":"De Micheli Giovanni",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "DESL",
+				  "full_name": "Distributed Electrical Systems Laboratory - EOS Holding Chair",
+				  "prof": "Paolone Mario"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ESL",
+				  "full_name": "Embedded Systems Laboratory",
+				  "prof": "Atienza Alonso David"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LANES",
+				  "full_name": "Laboratory of Nanoscale Electronics and Structures",
+				  "prof": "Kis Andras"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LEI",
+				  "full_name": "Industrial Electronics Laboratory",
+				  "prof": "Rufer Alfred"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LEMA",
+				  "full_name": "Electromagnetics and Acoustics Laboratory",
+				  "prof": "Mosig Juan Ramon"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIDIAP",
+				  "full_name": "L'IDIAP Laboratory",
+				  "prof": "Bourlard HervŽ"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIONS",
+				  "full_name": "Laboratory for Information and Inference Systems",
+				  "prof": "Cevher Volkan"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LPQM2",
+				  "full_name": "Laboratory of Photonics and Quantum Measurements (STI/SB)",
+				  "prof": "Kippenberg Tobias"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSI2",
+				  "full_name": "Integrated Systems Laboratory (STI/IC)",
+				  "prof": "De Micheli Giovanni"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSM",
+				  "full_name": "Microelectronic Systems Laboratory",
+				  "prof": "Leblebici Yusuf"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTS2",
+				  "full_name": "Signal Processing Laboratory 2",
+				  "prof": "Vandergheynst Pierre"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTS4",
+				  "full_name": "Signal Processing Laboratory 4",
+				  "prof": "Frossard Pascal"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTS5",
+				  "full_name": "Signal Processing Laboratory 5",
+				  "prof": "Thiran Jean-Philippe"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "NANOLAB",
+				  "full_name": "Nanoelectronic Devices Laboratory",
+				  "prof": "Ionescu Mihai Adrian"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "PHOSL",
+				  "full_name": "Photonic Systems Laboratory",
+				  "prof": "Brs Camille Sophie"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TCL",
+				  "full_name": "Telecommunications Circuits Laboratory",
+				  "prof": "Burg Andreas Peter"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IGM",
+			"full_name":"Institute of Mechanical Engineering",
+			"prof":"Curtin William",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LA1",
+				  "full_name": "Automatic Control Laboratory 1",
+				  "prof": "Bonvin Dominique"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LA2",
+				  "full_name": "Automatic Control Laboratory 2",
+				  "prof": "Longchamp Roland"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LA3",
+				  "full_name": "Automatic Control Laboratory 3",
+				  "prof": "Jones Colin"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAMD",
+				  "full_name": "Laboratory for Applied Mechanical Design",
+				  "prof": "Schiffmann JŸrg Alexander"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAMMM",
+				  "full_name": "Laboratory for Multiscale Mechanics Modeling",
+				  "prof": "Curtin William"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LCSM",
+				  "full_name": "Mechnical Systems Design Laboratory",
+				  "prof": "Giovanola Jacques"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LENI",
+				  "full_name": "Industrial Energy Systems Laboratory",
+				  "prof": "Favrat Daniel"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LFMI",
+				  "full_name": "Laboratory of Fluid Mechanics and Instabilities",
+				  "prof": "Gallaire Franois"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LGPP",
+				  "full_name": "Laboratory for Production Management and Processes",
+				  "prof": "Glardon RŽmy"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LICP",
+				  "full_name": "Laboratory for Computer-aided Design and Production",
+				  "prof": "Xirouchakis Paul"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMAF",
+				  "full_name": "Laboratory of Applied Mechanics and Reliability Analysis",
+				  "prof": "Botsis Ioannis"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMH",
+				  "full_name": "Hydraulic Machines Laboratory",
+				  "prof": "Avellan Franois"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LOMI",
+				  "full_name": "Laboratory of Wave Mechanics and Multi-field Interactions",
+				  "prof": "Spadoni Alessandro"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTCM",
+				  "full_name": "Heat and Mass Transfer Laboratory",
+				  "prof": "Thome John Richard"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "RRL",
+				  "full_name": "Reconfigurable Robotics Lab",
+				  "prof": "Paik Jamie"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPHAUSSENER",
+				  "full_name": "Prof. Haussener Group",
+				  "prof": "Haussener Sophia"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IMT",
+			"full_name":"Institute of Microengineering",
+			"prof":"Enz Christian",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LAPD",
+				  "full_name": "Laboratory of Applied Photonics Devices",
+				  "prof": "Moser Christophe"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LASA",
+				  "full_name": "Learning algorithms and systems Laboratory",
+				  "prof": "Billard Aude"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIB",
+				  "full_name": "Biomedical Imaging Laboratory",
+				  "prof": "Unser Micha‘l"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIS",
+				  "full_name": "Laboratory of Intelligent Systems",
+				  "prof": "Floreano Dario"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMIS1",
+				  "full_name": "Microsystems Laboratory 1",
+				  "prof": "Brugger JŸrgen"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMIS2",
+				  "full_name": "Microsystems Laboratory 2",
+				  "prof": "Gijs Martinus"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMIS4",
+				  "full_name": "Microsystems Laboratory 4",
+				  "prof": "Renaud Philippe"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LO",
+				  "full_name": "Optics Laboratory",
+				  "prof": "Psaltis Demetri"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LOB",
+				  "full_name": "Laboratoire d'optique biomŽdicale",
+				  "prof": "Lasser Theo"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LPM1",
+				  "full_name": "Laboratory of Microengineering for Manufacturing 1",
+				  "prof": "Jacot Jacques"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LPM2",
+				  "full_name": "Laboratory of Microengineering for Manufacturing 2",
+				  "prof": "Ryser Peter"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LPMAT",
+				  "full_name": "Laboratory for Photonic Materials and Characterization",
+				  "prof": "Bona Gian-Luca"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSBI",
+				  "full_name": "Foundation Bertarelli Chair in Neuroprosthetic Technology",
+				  "prof": "Lacour StŽphanie"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSRO1",
+				  "full_name": "Robotic Systems Laboratory 1",
+				  "prof": "Bleuler Hannes"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSRO2",
+				  "full_name": "Robotic Systems Laboratory 2",
+				  "prof": "Clavel Reymond"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "NAM",
+				  "full_name": "Nanophotonics and Metrology Laboratory",
+				  "prof": "Martin Olivier"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ESPLAB",
+				  "full_name": "Electronics and Signal Processing Laboratory",
+				  "prof": "Farine Pierre-AndrŽ"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "INSTANT-LAB",
+				  "full_name": "Patek Philippe Chair in Micromechanical and Horological Design",
+				  "prof": "Henein Simon"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAI",
+				  "full_name": "Integrated Actuators Laboratory",
+				  "prof": "Perriard Yves"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMTS",
+				  "full_name": "Microsystems for Space Technologies Laboratory",
+				  "prof": "Shea Herbert"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "OPT",
+				  "full_name": "Optics and Photonics Technology Laboratory",
+				  "prof": "Herzig Hans Peter"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "PV-LAB",
+				  "full_name": "Photovoltaics and Thin Film Electronics Laboratory",
+				  "prof": "Ballif Christophe"
+				},
+				
+				
+				{ "type": "lab",
+				  "name": "SAMLAB",
+				  "full_name": "Actuators and Microsystems Laboratory",
+				  "prof": "de Rooij Nico"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPENZ",
+				  "full_name": "Prof. Enz Group",
+				  "prof": "Enz Christian"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IMX",
+			"full_name":"Institute of Materials",
+			"prof":"Klok Harm-Anton",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LC",
+				  "full_name": "Ceramics Laboratory",
+				  "prof": "Setter Nava"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMC",
+				  "full_name": "Construction Materials Laboratory",
+				  "prof": "Scrivener Karen"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMM",
+				  "full_name": "Mechanical Metallurgy Laboratory",
+				  "prof": "Mortensen Andreas"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMOM",
+				  "full_name": "Laboratory of Macromolecular and Organic Materials",
+				  "prof": "Frauenrath Holger"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMSC",
+				  "full_name": "Laboratory of Semiconductor Materials",
+				  "prof": "Fontcuberta i Morral Anna"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LP",
+				  "full_name": "Polymers Laboratory",
+				  "prof": "Klok Harm-Anton"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSMX",
+				  "full_name": "Computational Materials Laboratory",
+				  "prof": "Rappaz Michel"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTC",
+				  "full_name": "Laboratory of Composite and Polymer Technology",
+				  "prof": "MŒnson Jan-Anders"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTP",
+				  "full_name": "Powder Technology Laboratory",
+				  "prof": "Hofmann Heinrich"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "SUNMIL",
+				  "full_name": "Supramolecular Nanomaterials and Interfaces Laboratory - Constellium Chair",
+				  "prof": "Stellacci Francesco"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "THEOS",
+				  "full_name": "Laboratory of theory and simulation of materials",
+				  "prof": "Marzari Nicola"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPSWYGENHOV",
+				  "full_name": "Prof. Van Swygenhoven Group",
+				  "prof": "Van Swygenhoven Helena"
+				}
+			]}
+	]},
+	
+	
+	{
+	"type": "school",
+	"name": "SV",
+	"full_name":"SCHOOL OF LIFE SCIENCES",
+	"children": [	
+			
+			{ 
+			"type": "institution",
+			"name": "BMI",
+			"full_name":"Brain Mind Institute",
+			"prof":"Sandi Carmen",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "CHCN",
+				  "full_name": "Sandoz Family Foundation Chair in Neural Coding end Neuroprosthesis",
+				  "prof": "Nicolelis Miguel"
+				},
+				
+				{ "type": "lab",
+				  "name": "CMSN",
+				  "full_name": "Merck Serono Chair in Neuroscience",
+				  "prof": "Fraering Patrick"
+				},
+				
+				{ "type": "lab",
+				  "name": "LCN2",
+				  "full_name": "Computational Neuroscience Laboratory (SV/IC)",
+				  "prof": "Gerstner Wulfram"
+				},
+				
+				{ "type": "lab",
+				  "name": "LEN",
+				  "full_name": "Neurodegenerative Studies Laboratory",
+				  "prof": "Aebischer Patrick"
+				},
+				
+				{ "type": "lab",
+				  "name": "LGC",
+				  "full_name": "Behavioral Genetics Laboratory",
+				  "prof": "Sandi Carmen"
+				},
+				
+				{ "type": "lab",
+				  "name": "LMNN",
+				  "full_name": "Laboratory of Molecular Neurobiology and Neuroproteomics",
+				  "prof": "Lashuel Hilal"
+				},
+				
+				{ "type": "lab",
+				  "name": "LNCO",
+				  "full_name": "Foundation Bertarelli Chair in Cognitive Neuroprosthetics",
+				  "prof": "Blanke Olaf"
+				},
+				
+				{ "type": "lab",
+				  "name": "LNDC",
+				  "full_name": "Laboratory of Neuroenergetics and Cellular Dynamics",
+				  "prof": "Magistretti Pierre"
+				},
+				
+				{ "type": "lab",
+				  "name": "LNMC",
+				  "full_name": "Neural Microcircuitry Laboratory",
+				  "prof": "Markram Henry"
+				},
+				
+				{ "type": "lab",
+				  "name": "LPSY",
+				  "full_name": "Psychophysics Laboratory",
+				  "prof": "Herzog Michael"
+				},
+				
+				{ "type": "lab",
+				  "name": "LSENS",
+				  "full_name": "Sensory Processing Laboratory",
+				  "prof": "Petersen Carl"
+				},
+				
+				{ "type": "lab",
+				  "name": "LSYM",
+				  "full_name": "Laboratory of Synaptic Mechanisms",
+				  "prof": "Schneggenburger Ralf"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPCOURTINE",
+				  "full_name": "IRP Chair on Spinal Cord Repair",
+				  "prof": "Courtine GrŽgoire"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPMOORE",
+				  "full_name": "Prof. Moore Group",
+				  "prof": "Moore Darren"
+				}
+			
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IBI-SV",
+			"full_name":"Interschool Institute of Bioengineering (SV)",
+			"prof":"Swartz Melody",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LBTC",
+				  "full_name": "Cellular Biotechnology Laboratory",
+				  "prof": "Wurm Florian Maria"
+				},
+				
+				{ "type": "lab",
+				  "name": "LDCS",
+				  "full_name": "Stem Cell Dynamics Laboratory",
+				  "prof": "Barrandon Yann"
+				},
+				
+				{ "type": "lab",
+				  "name": "LLCB",
+				  "full_name": "Laboratory of Lymphatic and Cancer Bioengineering",
+				  "prof": "Swartz Melody"
+				},
+				
+				{ "type": "lab",
+				  "name": "LMRP",
+				  "full_name": "Merck Serono Chair in Drug Delivery",
+				  "prof": "Hubbell Jeffrey Alan"
+				},
+				
+				{ "type": "lab",
+				  "name": "NCEM",
+				  "full_name": "NestlŽ Chair in Energy Metabolism",
+				  "prof": "Auwerx Johan"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPDALPE",
+				  "full_name": "Prof. Dal Peraro Group",
+				  "prof": "Dal Peraro Matteo"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPDEPLA",
+				  "full_name": "Prof. Deplancke Group",
+				  "prof": "Deplancke Bart"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPJENSEN",
+				  "full_name": "Prof. Jensen Group",
+				  "prof": "Jensen Jeffrey David"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPLUT",
+				  "full_name": "Prof. Lutolf Group",
+				  "prof": "Lutolf Matthias"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPNAE",
+				  "full_name": "Prof. Naef Group",
+				  "prof": "Naef Felix"
+				}
+			
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "ISREC",
+			"full_name":"Swiss Institute for Experimental Cancer Research",
+			"prof":"Hanahan Douglas",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "UPAGU",
+				  "full_name": "Prof. Aguet Group",
+				  "prof": "Aguet Michel"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPCDA",
+				  "full_name": "Prof. Constam Group",
+				  "prof": "Constam Daniel"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPGON",
+				  "full_name": "Prof. Gšnczy Group",
+				  "prof": "Gšnczy Pierre"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPLIN",
+				  "full_name": "Prof. Lingner Group",
+				  "prof": "Lingner Joachim"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPBRI",
+				  "full_name": "Prof. Brisken Group",
+				  "prof": "Brisken Cathrin"
+				},
+				
+				{ "type": "lab",
+				  "name": "CDTSO",
+				  "full_name": "Debiopharm Chair in Signal Transduction in Oncogenesis",
+				  "prof": "Huelsken Joerg"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPRAD",
+				  "full_name": "Prof. Radtke Group",
+				  "prof": "Radtke Freddy"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPSIM",
+				  "full_name": "Prof. Simanis Group",
+				  "prof": "Simanis Viesturs"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPDUB",
+				  "full_name": "Prof. Duboule Group",
+				  "prof": "Duboule Denis"
+				},
+				
+				{ "type": "lab",
+				  "name": "CMSO",
+				  "full_name": "Merck Serono Chair in Oncology",
+				  "prof": "Hanahan Douglas"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPHAN",
+				  "full_name": "ISREC Foundation Chair in Translational Oncology",
+				  "prof": "Hantschel Oliver"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPDEPALMA",
+				  "full_name": "Prof. De Palma Group",
+				  "prof": "De Palma Michele"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPMEYLAN",
+				  "full_name": "Prof. Meylan Group",
+				  "prof": "Meylan Etienne"
+				}
+			
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "GHI",
+			"full_name":"Global Health Institute",
+			"prof":"Cole Stewart",
+			"children": [
+			
+				{ "type": "lab",
+				  "name": "LVG",
+				  "full_name": "Laboratory of Virology and Genetics",
+				  "prof": "Trono Didier"
+				},
+				
+				{ "type": "lab",
+				  "name": "VDG",
+				  "full_name": "Prof. van der Goot Group",
+				  "prof": "van der Goot Gisou"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPKIN",
+				  "full_name": "Prof. McKinney Group",
+				  "prof": "McKinney John"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPBLO",
+				  "full_name": "Prof. Blokesch Group",
+				  "prof": "Blokesch Melanie"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPCOL",
+				  "full_name": "Prof. Cole Group",
+				  "prof": "Cole Stewart"
+				},
+				
+				{ "type": "lab",
+				  "name": "UPLEM",
+				  "full_name": "Prof. Lemaitre Group",
+				  "prof": "Lemaitre Bruno"
+				},
+			
+				{ "type": "lab",
+				  "name": "UPHARRIS",
+				  "full_name": "Prof. Harris Group",
+				  "prof": "Harris Nicola"
+				}
+			]}
+	]},
+	
+	{
+	"type": "school",
+	"name": "ENAC",
+	"full_name":"SCHOOL OF ARCHITECTURE CIVIL AND ENVIRONMENTAL ENGINEERING",
+	"children": [
+			
+			{ 
+			"type": "institution",
+			"name": "IA",
+			"full_name":"Institute of Architecture",
+			"prof":"Ortelli Luca",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "ACM",
+				  "full_name": "Archives of Modern Building",
+				  "prof": "Frey Pierre"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ALICE",
+				  "full_name": "Design Studio on the Conception of Space",
+				  "prof": "Dietz Dieter"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LABA",
+				  "full_name": "EPFL Laboratory Basel",
+				  "prof": "Gugger Harry"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAMU",
+				  "full_name": "Laboratory of Architecture and Urban Mobility",
+				  "prof": "Lamunire Ins"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAST",
+				  "full_name": "Laboratory of Architecture and Sustainable Technologies",
+				  "prof": "Rey Emmanuel"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAURE",
+				  "full_name": "Laboratory of urban architecture",
+				  "prof": "Bassi Andrea"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LCC",
+				  "full_name": "Construction and Conservation Laboratory",
+				  "prof": "Ortelli Luca"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LDM2",
+				  "full_name": "Media and Design Laboratory (ENAC/IC)",
+				  "prof": "Huang Jeffrey"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIPID",
+				  "full_name": "Interdisciplinary Laboratory of Performance-Integrated Design",
+				  "prof": "Andersen Marilyne"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LIV",
+				  "full_name": "Informatics and Visualization Laboratory",
+				  "prof": "Abou JaoudŽ Georges"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTH1",
+				  "full_name": "Theory and History of Architecture Laboratory 1",
+				  "prof": "Lucan Jacques"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTH2",
+				  "full_name": "Theory and History of Architecture Laboratory 2",
+				  "prof": "Marchand Bruno"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTH3",
+				  "full_name": "Theory and History of Architecture Laboratory 3",
+				  "prof": "Gargiani Roberto"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TSAM",
+				  "full_name": "Laboratory of Techniques and Preservation of Modern Architecture",
+				  "prof": "Graf Franz"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IIC",
+			"full_name":"Civil Engineering Institute",
+			"prof":"BrŸhwiler Eugen",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "CCLAB",
+				  "full_name": "Composite Construction Laboratory",
+				  "prof": "Keller Thomas"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "EESD",
+				  "full_name": "Earthquake Engineering and Structural Dynamics Laboratory",
+				  "prof": "Beyer Katrin"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "IBETON",
+				  "full_name": "Structural Concrete Laboratory",
+				  "prof": "Muttoni Aurelio"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "IBOIS",
+				  "full_name": "Chair of Timber Construction",
+				  "prof": "Weinand Yves"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ICOM",
+				  "full_name": "Steel Structures Laboratory",
+				  "prof": "Lebet Jean-Paul"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "IMAC",
+				  "full_name": "Applied Computing and Mechanics Laboratory",
+				  "prof": "Smith Ian"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAVOC",
+				  "full_name": "Traffic Facilities Laboratory",
+				  "prof": "Dumont AndrŽ-Gilles"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LCH",
+				  "full_name": "Hydraulic Constructions Laboratory",
+				  "prof": "Schleiss Anton"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LESO-PB",
+				  "full_name": "Solar Energy and Building Physics Laboratory",
+				  "prof": "Scartezzini Jean-Louis"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LHE",
+				  "full_name": "Environmental Hydraulics Laboratory",
+				  "prof": "Ancey Christophe"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMR",
+				  "full_name": "Rock Mechanics Laboratory",
+				  "prof": "Zhao Jian"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMS",
+				  "full_name": "Soil Mechanics Laboratory - Chair gaz naturel Petrosvibri",
+				  "prof": "Laloui Lyesse"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LSMS",
+				  "full_name": "Computational Solid Mechanics Laboratory",
+				  "prof": "Molinari Jean-Franois"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "MCS",
+				  "full_name": "Structural Maintenance and Safety Laboratory",
+				  "prof": "BrŸhwiler Eugen"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "INTER",
+			"full_name":"Institute of Urban and Regional Sciences",
+			"prof":"Thalmann Philippe",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "CEAT",
+				  "full_name": "Urban and Regional Planning Community",
+				  "prof": "Kaufmann Vincent"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LAC",
+				  "full_name": "Ch™ros Laboratory",
+				  "prof": "LŽvy Jacques"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LASUR",
+				  "full_name": "Urban Sociology Laboratory",
+				  "prof": "Kaufmann Vincent"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LUTS",
+				  "full_name": "Urban Transport Systems Laboratory",
+				  "prof": "Geroliminis Nikolaos"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "REME",
+				  "full_name": "Economics and Environmental Management Laboratory",
+				  "prof": "Thalmann Philippe"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TRANSP-OR",
+				  "full_name": "Transportation and Mobility Laboratory",
+				  "prof": "Bierlaire Michel"
+				}
+			
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "IIE",
+			"full_name":"Environmental Engineering Institute",
+			"prof":"Rinaldo Andrea",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "APRL",
+				  "full_name": "Atmospheric Particle Research Laboratory",
+				  "prof": "Takahama Satoshi"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "CRYOS",
+				  "full_name": "Laboratory of Cryospheric Sciences",
+				  "prof": "Lehning Michael"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "DISAL",
+				  "full_name": "Distributed Intelligent Systems and Algorithms Laboratory",
+				  "prof": "Martinoli Alcherio"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ECHO",
+				  "full_name": "Laboratory of Ecohydrology",
+				  "prof": "Rinaldo Andrea"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ECOL",
+				  "full_name": "Ecological Engineering Laboratory",
+				  "prof": "Barry David Andrew"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "ECOS",
+				  "full_name": "Ecological Systems Laboratory",
+				  "prof": "Buttler Alexandre"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "EFLUM",
+				  "full_name": "Environmental Fluid Mechanics Laboratory",
+				  "prof": "Parlange Marc"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "EML",
+				  "full_name": "Environmental Microbiology Laboratory",
+				  "prof": "Bernier-Latmani Rizlan"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LASIG",
+				  "full_name": "Geographic Information Systems Laboratory",
+				  "prof": "Golay Franois"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LBE",
+				  "full_name": "Laboratory for Environmental Biotechnology",
+				  "prof": "Holliger Christof"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LCE",
+				  "full_name": "Environmental Chemistry Laboratory",
+				  "prof": "Kohn Tamar"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LGB",
+				  "full_name": "Laboratory for Biological Geochemistry",
+				  "prof": "Meibom Anders"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LMCE",
+				  "full_name": "Environmental Chemistry Modeling Laboratory",
+				  "prof": "Arey Jeremy Samuel"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTE",
+				  "full_name": "Environmental Remote Sensing Laboratory",
+				  "prof": "Berne Alexis"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "LTQE",
+				  "full_name": "Laboratory for Water Quality and Treatment",
+				  "prof": "von Gunten Urs"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TOPO",
+				  "full_name": "Geodetic Engineering Laboratory",
+				  "prof": "Merminod Bertrand"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "TOX",
+				  "full_name": "Laboratory of Environmental Toxicology",
+				  "prof": "Schirmer Kristin"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPHCE",
+				  "full_name": "Prof. Hering Group in Environmental Chemistry",
+				  "prof": "Hering Janet Gordon"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPSSC",
+				  "full_name": "Prof. Steffen Group in Cryosphere Sciences",
+				  "prof": "Steffen Konrad"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "UPWUEST",
+				  "full_name": "Prof. WŸest Group",
+				  "prof": "WŸest Alfred Johny"
+				},
+			
+			
+				{ "type": "lab",
+				  "name": "WIRE",
+				  "full_name": "Wind Engineering and Renewable Energy Laboratory",
+				  "prof": "PortŽ-Agel Fernando"
+				}
+			]}
+	]},
+	
+	{
+	"type": "school",
+	"name": "MTE",
+	"full_name":"COLLEGE OF MANAGEMENT OF TECHNOLOGY",
+	"children": [
+			
+			
+			{ 
+			"type": "institution",
+			"name": "MTEI",
+			"full_name":"Management of Technology and Entrepreneurship Institute",
+			"prof":"Weber Thomas",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "CEMI",
+				  "full_name": "Chair in Economics and Management of Innovation",
+				  "prof": "Foray Dominique"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "CET",
+				  "full_name": "Corporate renewal and Entrepreneurial strategies in Technology Chair",
+				  "prof": "Wadhwa Anu"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "CSI",
+				  "full_name": "Corporate Strategy Innovation Chair",
+				  "prof": "Tucci Christopher"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "ENTC",
+				  "full_name": "Entrepreneurship and Technology Commercialization Chair",
+				  "prof": "Gruber Marc"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "LEM",
+				  "full_name": "Logistics Economy and Management Chair",
+				  "prof": "Wieser Philippe"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "MIR",
+				  "full_name": "La Poste Chair in Network industry Management & e-governance",
+				  "prof": "Finger Matthias"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "OES",
+				  "full_name": "Chair in Operations Economics and Strategy",
+				  "prof": "Weber Thomas"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "TOM",
+				  "full_name": "Technology and Operations Management",
+				  "prof": "Seifert Ralf"
+				}
+			
+		
+		
+			]},
+			
+			
+			{ 
+			"type": "institution",
+			"name": "SFI",
+			"full_name":"Swiss Finance Institute at EPFL",
+			"prof":"Filipovic Damir",
+			"children": [
+			
+			
+				{ "type": "lab",
+				  "name": "CSF",
+				  "full_name": "The Swissquote Chair in Quantitative Finance",
+				  "prof": "Filipovic Damir"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-AT",
+				  "full_name": "Chair of Tenure-Track Assistant Prof. Trolle",
+				  "prof": "Trolle Anders"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-EM",
+				  "full_name": "Chair of Full Prof. Morellec",
+				  "prof": "Morellec Erwan"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-JH",
+				  "full_name": "Chair of Associate Prof. Hugonnier",
+				  "prof": "Hugonnier Julien"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-LL",
+				  "full_name": "Chair of Full Prof. Lambertini",
+				  "prof": "Lambertini Luisa"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-LM",
+				  "full_name": "Chair of Tenure-Track Assistant Prof. Mancini",
+				  "prof": "Mancini Loriano"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-PCD",
+				  "full_name": "Full Prof. Collin-Dufresne Chair",
+				  "prof": "Collin Dufresne Pierre"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-RF",
+				  "full_name": "Chair of Associate Prof. Fahlenbrach",
+				  "prof": "Fahlenbrach RŸdiger"
+				},
+			
+		
+			
+				{ "type": "lab",
+				  "name": "SFI-SM",
+				  "full_name": "Chair of Tenure-Track Assistant Prof. Malamud",
+				  "prof": "Malamud Semyon"
+				}
+		
+			]}
+	]},
+	
+	{
+	"type": "school",
+	"name": "SB",
+	"full_name":"COLLEGE OF HUMANITIES",
+	"children": [
+		
+			{ "type": "lab",
+			  "name": "CDH-CH",
+			  "full_name": "CDH - Chair",
+			  "prof": "Panese Francesco"
+			},
+		
+			{ "type": "lab",
+			  "name": "CISRF",
+			  "full_name": "ISRF Chair in Social Theory",
+			  "prof": "Archer Margaret Scotford"
+			},
+		
+			{ "type": "lab",
+			  "name": "DHLAB",
+			  "full_name": "Digital Humanities Laboratory",
+			  "prof": ""
+			}
+	]},
+	{
+	"type": "school",
+	"name": "OR",
+	"full_name":"OTHER",
+	"children": [
+		
+		
+			{ "type": "lab",
+			  "name": "LBO",
+			  "full_name": "Biomechanical Orthopedics Laboratory EPFL-CHUV-DAL (STI)",
+			  "prof": ""
+			},
+		
+			{ "type": "lab",
+			  "name": "LMAM",
+			  "full_name": "Laboratory of Movement Analysis and Measurement (STI)",
+			  "prof": ""
+			},
+		
+			{ "type": "lab",
+			  "name": "CBT",
+			  "full_name": "Interinstitutional Center of Translational Biomechanics (STI)",
+			  "prof": ""
+			},
+		
+			{ "type": "lab",
+			  "name": "CHUV",
+			  "full_name": "Affiliated - Prof. Peter Frey (CHUV)",
+			  "prof": ""
+			},
+		
+			{ "type": "lab",
+			  "name": "CHUV",
+			  "full_name": "Affiliated - Prof. Pierre-Franois Leyvraz (CHUV)",
+			  "prof": ""
+			},
+		
+			{ "type": "lab",
+			  "name": "LBTM-UNI",
+			  "full_name": "Affiliated - Laboratory of Molecular Biotechnology (UNIL)",
+			  "prof": ""
+			}
+	]}
+]}	
+		
+		
