@@ -29,7 +29,7 @@
 }
 
 .node {
-  font: 10px sans-serif;
+  font: 8px sans-serif;
 }
 
 .link {
@@ -46,7 +46,7 @@
 
 	<script>
 
-var diameter = 960;
+var diameter = 1100;
 
 var tree = d3.layout.tree()
     .size([360, diameter / 2 - 120])
@@ -57,7 +57,7 @@ var diagonal = d3.svg.diagonal.radial()
 
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
-    .attr("height", diameter - 150)
+    .attr("height", diameter )
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
