@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+
+
+<link type="text/css" rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css"/> 
+<link type="text/less" rel="stylesheet/less" href="./assets/less/common.less"/> 
+<style type="text/css">
+  
+
+  circle.node0{
+    fill: #FF0000;
+  }
+  circle.node1{
+    fill: #FFE100;
+  }
+  circle.node2{
+    fill: #00FF1D;
+  }
+  circle.node3{
+    fill: #000;
+  }
+  circle.node3.hover{
+    fill: #ff0000!important;
+  }
+</style>
+<title>EPFL &ndash; Graphic Representation</title>
+</head>
+
+<body>
+  <script>
+    // Include angular-loader to allow modules to be loaded in any order.
+    /*
+    AngularJS v1.0.2
+    (c) 2010-2012 Google, Inc. http://angularjs.org
+    License: MIT
+    */
+    (function(i){'use strict';function d(c,b,e){return c[b]||(c[b]=e())}return d(d(i,"angular",Object),"module",function(){var c={};return function(b,e,f){e&&c.hasOwnProperty(b)&&(c[b]=null);return d(c,b,function(){function a(a,b,d){return function(){c[d||"push"]([a,b,arguments]);return g}}if(!e)throw Error("No module: "+b);var c=[],d=[],h=a("$injector","invoke"),g={_invokeQueue:c,_runBlocks:d,requires:e,name:b,provider:a("$provide","provider"),factory:a("$provide","factory"),service:a("$provide","service"),
+    value:a("$provide","value"),constant:a("$provide","constant","unshift"),filter:a("$filterProvider","register"),controller:a("$controllerProvider","register"),directive:a("$compileProvider","directive"),config:h,run:function(a){d.push(a);return this}};f&&h(f);return g})}})})(window);
+  </script>
+<!-- Loading curl -->
+<!-- <script type="text/javascript" src="./assets/js/lib/require.min.js"></script> -->
+<script type="text/javascript" src="./assets/js/lib/less.js"></script>
+
+
+  <div id="content" class="">
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner" >
+      <div style="margin-left: 30px;">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">EPFL on graphes</a>
+               <!--  <div class="nav-collapse collapse">
+                  <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul> -->
+                <!-- <div>/.nav-collapse </div> -->
+      </div>
+    </div>
+
+
+
+
+    <!-- Graph -->
+    <div id="graph">
+      
+    </div>
+  
+
+
+  </div>
+  
+
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+    <h3 id="Lab-Abv">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p><b >Name: </b><span id="Lab-Name"></span></p>
+    <p><b >Professor: </b><span id="Lab-Prof"></span></p>
+    <p><b >Type: </b><span id="Lab-Type"></span></p>
+    <p><b >Belong to: </b><span id="Lab-Belong"></span></p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="assets/js/lib/bootstrap/bootstrap.min.js"></script>
+<script src="assets/js/lib/vivagraph.min.js"></script>
+
+<script>
+
+// 'use strict';
+
+// require.config({
+//   baseUrl: 'assets/js',
+//     paths: {
+//       jquery: 'lib/jquery',
+//       angular: 'lib/angular.min'
+//     },
+//     shim: {
+//         angular: {
+//             exports: 'angular'
+//         },
+//         jquery: {
+//             exports: 'jquery'
+//         }
+//     }
+// });
+
+// require(['angular', 'app', 'lib/less'], function (angular) {
+//     angular.bootstrap(document, ['epfl-graph']);
+// });
+
+
+var colors = new Array('#FF0000', '#FFE100', '#00FF1D', '#000000' );
+
+
+var graph    = Viva.Graph.graph(),
+    graphics = Viva.Graph.View.svgGraphics();
+
+var id = -1;
+
+var addRec = function(parent_id, level, jsondata){
+    // Increment the id:
+    id ++;
+    var currid = id;
+    
+
+
+    graph.addNode(currid, {
+        "type": jsondata.type,
+        "name": jsondata.name,
+        "full_name": jsondata.full_name,
+        "prof": jsondata.prof,
+        "parent": parent_id,
+        "level": level,
+        "children": []
+    });
+
+
+    if(parent_id > -1){
+      var parent_node = graph.getNode(parent_id);
+      parent_node.data.children.push(currid);
+      graph.addLink(currid, parent_id, {src: parent_id, target: currid});
+    }
+
+    
+
+    // Recursif:
+    if(jsondata.children){
+        $.each(jsondata.children, function(key, val){
+            addRec(currid, level+1, val);
+        })
+    }
+    
+
+}
+
+// Read the entire file:
+$.getJSON('epfl.json', function(data) {
+  
+
+  addRec(-1, 0, data);
+
+  // Customize view:
+  graphics.node(function(node) {
+    var radius = 80 * Math.exp( - 1.2 *node.data.level ),
+        testsize = 5 + 30*Math.exp( - 1.5 *node.data.level),
+        textL = node.data.name.length;
+    var ui = Viva.Graph.svg('g'),
+        text = Viva.Graph.svg('text')
+                   .attr('x', - testsize /4 * textL)
+                   .attr('y', testsize/2 )
+                   .text(node.data.name )
+                   .attr('font-size', testsize  ),
+        c = Viva.Graph.svg('circle')
+               .attr('r', radius )
+               .attr('class', 'node'+node.data.level );
+    if(node.data.level > 2){
+        ui.append(c);
+        $(c).hover(function() { // mouse over
+            $(c).addClass('hover');
+        }, function() { // mouse out
+             $(c).removeClass('hover');
+        });
+      // c.attr('title', 'test test');
+        // $(c).tooltip({ 'trigger': 'click'});
+        $(c).click(function(){
+          $('#Lab-Abv').html(node.data.name);
+          $('#Lab-Name').html(node.data.full_name);
+          $('#Lab-Prof').html(node.data.prof);
+          $('#Lab-Type').html(node.data.type);
+          $('#Lab-Belong').html(graph.getNode(node.data.parent).data.full_name );
+          $('#myModal').modal('show');
+        });
+        
+    }else{
+        ui.append(c);
+        ui.append(text);
+        
+    }
+    
+    
+
+    return ui
+  }).placeNode(function(nodeUI, pos){
+          //console.log(nodeUI.children('circle'));
+          var nodeSize = nodeUI.children('circle')[0].attr('r');
+          nodeUI.attr('transform', 
+                            'translate(' + 
+                                  (pos.x - nodeSize/2) + ',' + (pos.y - nodeSize/2) + 
+                            ')');
+  });
+
+
+  // graphics.link(function(link){
+  //         var ui = Viva.Graph.svg('g'),
+  //             text = .svg('text').text(graph.node(link.data.src).data.name ),
+  //             line = Viva.Graph.svg('line').attr('class', 'line');
+  //         return ui.append(text).append(line);
+  //      }).placeLink(function(linkUI, fromPos, toPos) {
+            
+  //           nodeUI.attr('transform', 
+  //                       'translate(' + 
+  //                             (pos.x - nodeSize/2) + ',' + (pos.y - nodeSize/2) + 
+  //                       ')');
+  //       }); 
+
+  // Finally render it:
+  var renderer = Viva.Graph.View.renderer(graph, {
+       container : document.getElementById('graph'),
+       graphics: graphics
+  });
+  renderer.run();
+
+ 
+
+});
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
